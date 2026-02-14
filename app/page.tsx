@@ -34,8 +34,8 @@ export default function Home() {
               accentColor: "#7C3AED",
               fontFamily: "sans-serif",
               projectInfoExpanded: false,
-              watermarkEnabled: false,
-              showTierBoost: false,
+              watermarkEnabled: true,
+              showTierBoost: true,
               textColor: "#000000",
             });
           }

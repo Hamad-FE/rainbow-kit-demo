@@ -8,7 +8,7 @@ import {
 } from "@rainbow-me/rainbowkit";
 
 import { WagmiProvider } from "wagmi";
-import { mainnet, sepolia, base} from "wagmi/chains";
+import {sepolia, baseSepolia, bscTestnet, avalancheFuji} from "wagmi/chains";
 
 import {
   QueryClient,
@@ -18,7 +18,7 @@ import {
 const config = getDefaultConfig({
   appName: "Rainbow Demo",
   projectId: "df55a54a29fb7c20e7579edecbcdcd40", // replace this
-  chains: [mainnet, sepolia, base],
+  chains: [sepolia, baseSepolia, bscTestnet, avalancheFuji],
   ssr: true,
 });
 
