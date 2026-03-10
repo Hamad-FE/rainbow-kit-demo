@@ -30,17 +30,17 @@ export default function Home() {
 
         {/* External widget script */}
         <Script
-          src="https://pad-widget.chaingpt.dev/cgpt-widgets.umd.js"
+          src="https://saleium-dev.chaingpt.workers.dev/cgpt-widgets.umd.js"
           strategy="afterInteractive"
           onLoad={() => {
             if ((window as any).Saleium) {
               (window as any).Saleium.mount({
                 container: "#pad-widget",
-                saleId: "U0BiNT",
+                saleId: "e0k8oa",
                 theme: "dark",
                 accentColor: "#7C3AED",
                 fontFamily: "sans-serif",
-                projectInfoExpanded: false,
+                projectInfoExpanded: true,
                 watermarkEnabled: true,
                 showTierBoost: true,
                 textColor: "#000000",
