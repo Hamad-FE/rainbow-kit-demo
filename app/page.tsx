@@ -30,7 +30,7 @@ export default function Home() {
 
         {/* External widget script */}
         <Script
-          src="https://saleium-dev.chaingpt.workers.dev/cgpt-widgets.umd.js"
+          src="https://saleium.chaingpt.dev/cgpt-widgets.umd.js"
           strategy="afterInteractive"
           onLoad={() => {
             if ((window as any).Saleium) {
